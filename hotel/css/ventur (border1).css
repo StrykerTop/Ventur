@@ -1,0 +1,133 @@
+* {
+  font-style: normal;
+  font-weight: 100;
+}
+.header {
+  border: 1px solid;
+  margin-right: 5px;
+  position: relative;
+}
+
+.title {
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif
+  border: 1px solid;
+  margin-left: 25px;
+  font-size: 60px;
+  color: white;
+}
+.portada {
+  background-image: url("../images/palmeras2.jpg");
+  margin-top: 5px;
+  font-family: 'Allerta', sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, #5f93bbd6, #bbe7fe);
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  border: 1px solid;
+  font-size: 24px;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+.logotipo {
+  display: inline-block;
+}
+
+.menu li {
+  border: 1px solid;
+  margin-left: 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.resumen {
+  border: 1px solid;
+  margin-top: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+button {
+  margin-bottom: 20px;
+  border-radius: 12px;
+  margin-left: 15px;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  background: linear-gradient(to left, #7facd0e3, #a5e1f7);
+}
+
+.destinosycomida {
+  margin-top: 5px;
+  padding-bottom: 0;
+  color: #513F65;
+  position: relative;
+}
+
+.destinosycomida h2 {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.left {
+  float: left;
+  margin-left: 3px;
+}
+
+.right {
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 30px;
+}
+
+.destinos {
+  border: 1px solid;
+  float: right;
+}
+
+.destinos ol {
+  border: 0px solid;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 15px;
+  padding-top: 15px;
+  position: absolute;
+  right: 10px;
+}
+
+.imagenes {
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+}
+.comida {
+  border: 1px solid;
+  margin-top: 20px;
+  float: left;
+}
+
+.comida ol {
+  border:1px solid;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.contact {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.contenedor {
+  width: 1000px;
+  margin: auto;
+}
